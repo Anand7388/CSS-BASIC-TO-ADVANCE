@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>relative percentage units </title>
+    <title>EM relative units</title>
     <style>
+        .body {
+            font-size: 100px;
+        }
         #first {
             height: 200px;
             width: 200px;
             background-color: aqua;
             font-size: 25px;
-
         }
         #second {
             background-color: blueviolet;
-            width: 50%;
-            height: 30%;
+            width: 70%;
+            height: 50%;
+            font-size: 2em;
             
-
         }
     </style>
 </head>
@@ -25,7 +27,8 @@
     <div id="first">
         first
         <div id="second">
-            second 
+            second
+
         </div>
     </div>
     
