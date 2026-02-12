@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>align items</title>
+    <title>align self</title>
     <style>
         .{
             margin: 0;
@@ -25,10 +25,7 @@
             margin: 20px;
             border: 3px solid black;
             display: flex;
-            flex-direction: row;
-            justify-items: center;
-            align-items: center;
-
+            flex-direction: column-reverse;
         }
         #box1 {
             background-color: aqua;
@@ -38,12 +35,14 @@
         }
         #box3 {
             background-color: yellow;
+            align-self: center;
         }
         #box4 {
-            background-color: blue;
+            background-color: tomato;
         }
-    </style>
 
+
+    </style>
 </head>
 <body>
     <h1 id="heading"> flex container </h1>
