@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale css transform </title>
+    <style>
+        .box {
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            background-color: black;
+            
+        }
+        #box1 {
+            background-color: brown;
+
+        }
+        #box1:hover {
+            transform:scale(2);
+        }
+        #box2 {
+            background-color: green;
+        }
+        #box2:hover {
+            transform:scale(2);
+        }
+        #box3 {
+            background-color: red;
+        }
+        #box3:hover {
+            transform:scale(2);
+        }
+        #box4 {
+            background-color: yellow;
+        }
+        #box4:hover {
+            transform:scale(2);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box" class="box">
+        <div id="box1" class="box">box 1</div>
+        <div id="box2" class="box">box 2</div>
+        <div id="box3" class="box">box 3</div>
+        <div id="box4" class="box">box 4</div>
+    </div>
+    
+</body>
+</html>
