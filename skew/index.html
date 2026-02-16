@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>translate css transform</title>
+    <title>skew css transform </title>
     <style>
-        .box {
+         .box {
             height: 50px;
             width: 50px;
             padding: 5px;
@@ -17,32 +17,29 @@
             transition-timing-function: ease-in-out;
             background-color: gray;
         }
-        #box:hover{
-            transform:translate(50px);
-        }
         #box1 {
             background-color: brown;
         }
-        #box:hover {
-            transform:translate(50px);
+        #box1:hover {
+            transform:skew(45deg);
         }
         #box2 {
             background-color: red;
         }
         #box2:hover {
-            transform:translate(50px);
+            transform:skew(30deg);
         }
         #box3 {
-            background-color: aqua;
+            background-color: blue;
         }
         #box3:hover {
-            transform:translate(50px);
+            transform:skew(80deg);
         }
         #box4 {
-            background-color: yellow;
+            background-color: aqua;
         }
         #box4:hover {
-            transform:translate(50px);
+            transform:skew(180deg);
         }
 
     </style>
@@ -53,9 +50,7 @@
         <div id="box2" class="box">box 2</div>
         <div id="box3" class="box">box 3</div>
         <div id="box4" class="box">box 4</div>
-
     </div>
-    
     
 </body>
 </html>
